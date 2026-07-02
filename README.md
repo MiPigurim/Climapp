@@ -11,6 +11,17 @@
 - Utilizar bibliotecas de ícones, como Material Icons, para adicionar visuais.
 - Depurar projetos utilizando o DevMenu e ferramentas como o OpenJS Debugger.
 
+2.  Gerenciamento de dados no React Native
+
+- A instalar e utilizar fontes externas no projeto Expo, como a Montserrat.
+- A garantir o carregamento adequado de fontes utilizando o hook useFonts.
+- A aplicar estilos distintos de fonte aos textos usando diferentes pesos e font-family.
+- A modificar e verificar estilos em tempo real no emulador usando Dev Menu e OpenJS Debugger.
+- A implementar navegação entre telas usando stack.screen e useRouter.
+- A criar componentes React e utilizá-los para navegação programática.
+- A importar e iterar dados de um arquivo JSON para gerar componentes dinâmicos.
+- A estilizar componentes com StyleSheet.create, aplicando propriedades visuais como espaçamento, cor e layout.
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

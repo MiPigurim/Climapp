@@ -1,7 +1,11 @@
 import MaterialIcon from "@expo/vector-icons/MaterialIcons";
 import { LinearGradient } from "expo-linear-gradient";
+import { useRouter } from "expo-router";
 import { Image, StyleSheet, Text, TouchableOpacity } from "react-native";
+
 export default function Index() {
+  const router = useRouter();
+
   return (
     <LinearGradient
       // Background Linear Gradient
@@ -11,7 +15,13 @@ export default function Index() {
       <Image source={require("../assets/images/Climapp.png")} />
       <Image source={require("../assets/images/Ilustra1.png")} />
       <Text style={styles.title}>Boas-vindas!</Text>
-      <TouchableOpacity style={styles.button}>
+
+      <TouchableOpacity
+        onPress={() => {
+          router.push("/cities");
+        }}
+        style={styles.button}
+      >
         <Text style={styles.buttonTitle}>Entrar</Text>
         <MaterialIcon name="arrow-forward" size={24} color="#01080E" />
       </TouchableOpacity>
@@ -31,6 +41,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     color: "#fff",
+    fontFamily: "Montserrat_400Regular",
   },
   button: {
     width: "100%",
@@ -46,5 +57,6 @@ const styles = StyleSheet.create({
     color: "#01080E",
     fontSize: 20,
     fontWeight: 600,
+    fontFamily: "Montserrat_600SemiBold",
   },
 });
