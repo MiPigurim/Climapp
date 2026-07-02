@@ -1,3 +1,16 @@
+## O que aprendemos:
+
+1.  Ferramentas essenciais para desenvolvimento
+
+- Iniciar e resetar projetos Expo utilizando npx e scripts específicos.
+- Navegar e manipular a estrutura de arquivos em projetos React Native com Expo.
+- Executar projetos no emulador Android e interagir com o Expo.
+- Configurar navegação e cabeçalhos usando stack.screen e propriedades como headerShown.
+- Aplicar gradientes e importar imagens através de bibliotecas do Expo.
+- Centralizar e estilizar componentes com propriedades de estilo flexbox.
+- Utilizar bibliotecas de ícones, como Material Icons, para adicionar visuais.
+- Depurar projetos utilizando o DevMenu e ferramentas como o OpenJS Debugger.
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
